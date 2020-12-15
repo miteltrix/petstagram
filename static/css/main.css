@@ -1,0 +1,55 @@
+body {
+    font-size: 16px;
+}
+
+section header {
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    padding: 25px 0;
+    padding-bottom: 25px;
+}
+
+.list-horizontal .list-item {
+    display: inline-flex;
+}
+
+.row {
+    display: inline-flex;
+}
+
+.row .col {
+    flex: 50%;
+}
+
+.button {
+    padding: 5px 15px;
+    border-radius: 3px;
+    background-color: #6c757d;
+    color: #fff;
+    border-color: #6c757d;
+}
+
+.site-nav {
+    background-color: rgb(248, 249, 250);
+}
+
+.site-nav .list-item {
+    padding: 15px 5px;
+    border-radius: 10px;
+}
+
+.site-nav .list-item:first-of-type {
+    margin-right: 10px;
+}
+
+.banner {
+    background-color: #e9ecef;
+    height: 300px;
+    width: 1046px;
+    padding: 15px 15px 15px 15px;
+}
+
+.banner:before {
+    background-image: url('/static/animal_banner.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
